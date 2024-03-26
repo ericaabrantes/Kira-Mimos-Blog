@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Sansita+Swashed:wght@300..900&family=Sansita:ital,wght@0,400;0,700;0,800;0,900;1,400;1,700;1,800;1,900&display=swap');
+
+
+:root{
+
+    --cor--preta: #000000;
+    --cor--branca: #f6f6f6;
+    --cor-rosa: #ef6dab;
+    --cor--azul: #64AADD;
+
+    --fonte--primaria: "Sansita Swashed", system-ui;
+    --fonte--secundaria: "Roboto", sans-serif;
+    --fonte--terciaria: "Sansita", sans-serif
+}    
+
+.btn-primary{
+    background-color: var(--cor-rosa);
+    border: none;
+    padding: 1em;
+}
+
+h1{
+    color: #EF6DAB;
+    font-family: var(--fonte--primaria);
+}
+
+.nav-link{
+    color: #EF6DAB;
+    font-family: var(--fonte--terciaria);
+}
+
+.cozinhadakira__titulo{
+    color: var(--cor--azul);
+    font-family: var(--fonte--terciaria);
+}
